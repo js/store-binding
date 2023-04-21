@@ -14,6 +14,12 @@
 		0459992229F25A52002910CD /* LikeAStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459992129F25A52002910CD /* LikeAStoreTests.swift */; };
 		0459992C29F25A52002910CD /* LikeAStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459992B29F25A52002910CD /* LikeAStoreUITests.swift */; };
 		0459992E29F25A52002910CD /* LikeAStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459992D29F25A52002910CD /* LikeAStoreUITestsLaunchTests.swift */; };
+		0459993B29F25A6A002910CD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459993A29F25A6A002910CD /* Recipe.swift */; };
+		0459993D29F25A7F002910CD /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459993C29F25A7F002910CD /* RecipeStore.swift */; };
+		0459993F29F25AF9002910CD /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459993E29F25AF9002910CD /* RecipeService.swift */; };
+		0489E06F29F260770048D7BC /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489E06E29F260770048D7BC /* RecipeDetail.swift */; };
+		0489E07129F2619D0048D7BC /* EditRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489E07029F2619D0048D7BC /* EditRecipeView.swift */; };
+		0489E07329F262E80048D7BC /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0489E07229F262E80048D7BC /* Binding+Optional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		0459992729F25A52002910CD /* LikeAStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeAStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0459992B29F25A52002910CD /* LikeAStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAStoreUITests.swift; sourceTree = "<group>"; };
 		0459992D29F25A52002910CD /* LikeAStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeAStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0459993A29F25A6A002910CD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		0459993C29F25A7F002910CD /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		0459993E29F25AF9002910CD /* RecipeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		0489E06E29F260770048D7BC /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		0489E07029F2619D0048D7BC /* EditRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecipeView.swift; sourceTree = "<group>"; };
+		0489E07229F262E80048D7BC /* Binding+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Optional.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,12 @@
 			children = (
 				0459991029F25A51002910CD /* LikeAStoreApp.swift */,
 				0459991229F25A51002910CD /* ContentView.swift */,
+				0489E06E29F260770048D7BC /* RecipeDetail.swift */,
+				0489E07029F2619D0048D7BC /* EditRecipeView.swift */,
+				0459993A29F25A6A002910CD /* Recipe.swift */,
+				0459993C29F25A7F002910CD /* RecipeStore.swift */,
+				0459993E29F25AF9002910CD /* RecipeService.swift */,
+				0489E07229F262E80048D7BC /* Binding+Optional.swift */,
 				0459991429F25A52002910CD /* Assets.xcassets */,
 				0459991629F25A52002910CD /* Preview Content */,
 			);
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0459993B29F25A6A002910CD /* Recipe.swift in Sources */,
+				0459993D29F25A7F002910CD /* RecipeStore.swift in Sources */,
+				0459993F29F25AF9002910CD /* RecipeService.swift in Sources */,
 				0459991329F25A51002910CD /* ContentView.swift in Sources */,
+				0489E06F29F260770048D7BC /* RecipeDetail.swift in Sources */,
+				0489E07329F262E80048D7BC /* Binding+Optional.swift in Sources */,
 				0459991129F25A51002910CD /* LikeAStoreApp.swift in Sources */,
+				0489E07129F2619D0048D7BC /* EditRecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
